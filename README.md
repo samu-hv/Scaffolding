@@ -1,27 +1,35 @@
 # Scaffolding
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+This project was created just with a scaffolding purpose.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Download the repository zip or clone this repository to your own folder with: `git clone projectURL`
+2. Remeber to install de dependencies `npm i` at the root of your project
+3. And run this command `ng build` to compile it.
 
-## Code scaffolding
+## Run app
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
+The application will automatically reload if you change any of the source files.
 
-## Build
+## Versions Installed
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. node --> 16.15.1
+2. npm --> 8.11.0
+3. Angular --> 14.0.5
+4. Angular Material --> 14.0.4
+5. Express --> 4.18.1
+6. TypeScript --> 4.7.2
+7. S.O. --> Windows 10
 
-## Running unit tests
+## Depoly to Heroku
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This app is deployed to Heroku with Node and Express. Access now: [a link](https://github.com/samu-hv)
 
-## Running end-to-end tests
+## Author
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+👤 **Samuel Hayas**
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- LinkedIn: [@Samuel_Hayas](www.linkedin.com/in/samuel-hayas-frontend-developer)
+- Github: [@samu-hv](https://github.com/samu-hv)
