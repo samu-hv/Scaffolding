@@ -1,0 +1,36 @@
+@import "./variables";
+@import "./mixins";
+
+.title-primary {
+  width: 100%;
+  text-align: center;
+  @include font-source-sans(3.6rem, transparent, 600, 4px);
+  background: linear-gradient($color-primary, $color-secondary);
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  padding: 5rem 0rem;
+
+  @include respond(phone) {
+    font-size: 4rem;
+  }
+
+  @include respond(phone-small) {
+    letter-spacing: 2px;
+    font-size: 3.2rem;
+  }
+}
+
+.spinner-center {
+  height: 30rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 20%);
+}
+
+.spinner {
+  height: 16rem;
+}
+
+table {
+  margin-bottom: 5rem !important;
+}

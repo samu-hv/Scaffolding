@@ -23,10 +23,6 @@ The application will automatically reload if you change any of the source files.
 6. TypeScript --> 4.7.2
 7. S.O. --> Windows 10
 
-## Depoly to Heroku
-
-This app is deployed to Heroku with Node and Express. Access now: [a link](https://github.com/samu-hv)
-
 ## Author
 
 👤 **Samuel Hayas**
