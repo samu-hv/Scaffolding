@@ -30,12 +30,21 @@
   transition: $x;
 }
 
+@mixin transition-delay($x...) {
+  -webkit-transition-delay: $x;
+  -moz-transition-delay: $x;
+  -ms-transition-delay: $x;
+  -o-transition-delay: $x;
+  transition-delay: $x;
+}
+
 @mixin transform($transforms) {
   -webkit-transform: $transforms;
   -moz-transform: $transforms;
   -ms-transform: $transforms;
   transform: $transforms;
 }
+
 // Rotate
 @mixin rotate($deg) {
   @include transform(rotate(#{$deg}deg));
